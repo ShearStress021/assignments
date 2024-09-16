@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class IntegerConversion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner myInput = new Scanner(System.in);
+		int theInt = myInput.nextInt();
+		
+		
+		System.out.println(theInt);
+
+	}
+
+}

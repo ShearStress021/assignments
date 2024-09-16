@@ -1,0 +1,11 @@
+
+public class IntegerConversion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner myInput = new Scanner(System.in);
+		System.out.println("Hello, World!");
+
+	}
+
+}

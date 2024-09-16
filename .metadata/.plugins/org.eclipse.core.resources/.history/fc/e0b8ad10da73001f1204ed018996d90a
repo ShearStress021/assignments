@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class MinutesConversion {
+	public static void main(String [] arg) {
+		
+		Scanner myInput = new Scanner(System.in);
+		System.out.println("Enter the number of minutes: ");
+		double minutes = myInput.nextDouble();
+		
+		double hours = minutes / 60;
+		double days = minutes / (double)(60 * 24);
+		System.out.printf("%.2f %.2f  %.2f ", minutes,  hours , days);
+		
+	}
+
+}
